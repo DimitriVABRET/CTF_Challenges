@@ -44,10 +44,10 @@ Un screenshot recadré peut donc toujours contenir :
 
 Pour vérifier la vulnérabilité :
 
-`def detect_png(self, input_source):
+```def detect_png(self, input_source):
     ...
     if len(data) > iend_index + iend_full_chunk_length:
-        return True`
+        return True```
 
 
 Si des données existent après le chunk IEND, l’image est vulnérable.
@@ -92,7 +92,12 @@ Cette image contient :
 
 Dans restored.png, au-delà des colonnes visibles dans la version recadrée, se trouve :
 
-le mot de passe complet KeePass, caché dans une colonne très éloignée (ex : X, Y ou Z).
+le mot de passe complet KeePass, caché dans une colonne très éloignée (ex : X, Y ou Z)
+
+
+<img width="1384" height="842" alt="image" src="https://github.com/user-attachments/assets/6f7e3987-ac9d-4ce1-8187-2b605e68bea7" />
+
+
 
 Le mot de passe retrouvé est :
 
