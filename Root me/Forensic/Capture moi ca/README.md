@@ -95,7 +95,7 @@ Dans restored.png, au-delà des colonnes visibles dans la version recadrée, se 
 le mot de passe complet KeePass, caché dans une colonne très éloignée (ex : X, Y ou Z)
 
 
-<img width="1384" height="842" alt="image" src="https://github.com/user-attachments/assets/6f7e3987-ac9d-4ce1-8187-2b605e68bea7" />
+< img width="1384" height="842" alt="image" src="https://github.com/user-attachments/assets/6f7e3987-ac9d-4ce1-8187-2b605e68bea7" />
 
 
 
